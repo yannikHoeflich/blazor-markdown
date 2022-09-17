@@ -32,13 +32,26 @@ Add the following to your `_Imports.razor`
 ```
 
 ## Usage
-The `Markdown` component takes the path to a Markdown file in the `FilePath` parameter. The component will convert the Markdown file to HTML in place of the component.
+
+### Markdown file
+The `MarkdownFile` component takes the path to a Markdown file in the `FilePath` parameter. The component will convert the Markdown file to HTML in place of the component.
 
 ```html
-<Markdown FilePath="wwwroot/markdown-file.md" />
+<MarkdownFile FilePath="wwwroot/markdown-file.md" />
 ```
 > **Tip:** :bulb:
 > If you put your Markdown files outside of the wwwroot folder then you need to ensure they are copied to the output directory (select properties on the file from within Visual Studio).
+
+### MarkdownString
+The `MarkdownString` component takes a raw markdown string with the `Markdown` parameter and converts it into HTML that is placed inside the component.
+
+```html
+<MarkdownString Markdown='@MarkdownString'>
+
+@code{
+    string MarkdownString = "# Headline"
+}
+```
 
 ## Additional options
 Blazor Markdown uses [Markdig](https://github.com/lunet-io/markdig) under the hood. Markdig has different [extensions](https://github.com/lunet-io/markdig/blob/master/src/Markdig/MarkdownExtensions.cs) that you can configure. For this reason the Pipeline property is overridable on the Markdown component.
