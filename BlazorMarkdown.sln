@@ -7,10 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorMarkdown", "BlazorMar
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5A8BC1EC-F7E7-4F08-95AB-C5B1C22BB2FC}"
 	ProjectSection(SolutionItems) = preProject
-		Directory.Build.targets = Directory.Build.targets
-		GitVersion.yml = GitVersion.yml
 		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
-		.github\workflows\release.yml = .github\workflows\release.yml
 	EndProjectSection
 EndProject
 Global
