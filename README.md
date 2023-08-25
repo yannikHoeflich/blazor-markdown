@@ -19,11 +19,11 @@ No longer will  `<pre><code>` content be weirdly indented or heavily escaped. Go
 Install the [NuGet package](https://www.nuget.org/packages/BlazorMarkdownEnhanced/) into your server side Blazor project.
 
 ```powershell
-PM> Install-Package BlazorMarkdown
+PM> Install-Package BlazorMarkdownEnhanced
 ```
 
 ```
-$ dotnet add package BlazorMarkdown
+$ dotnet add package BlazorMarkdownEnhanced
 ```
 
 Add the following to your `_Imports.razor`
