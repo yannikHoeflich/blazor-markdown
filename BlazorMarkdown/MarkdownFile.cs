@@ -4,13 +4,11 @@ using Markdig;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Rendering;
 
-namespace BlazorMarkdown
-{
+namespace BlazorMarkdown {
     /// <summary>
     /// A Component for displaying Markdown.
     /// </summary>
-    public class MarkdownFile : ComponentBase
-    {
+    public class MarkdownFile : ComponentBase {
         /// <summary>
         /// Gets or sets the path to the Markdown file.
         /// </summary>
@@ -28,18 +26,16 @@ namespace BlazorMarkdown
             .Build();
 
         /// <inheritdoc/>
-        protected override void BuildRenderTree(RenderTreeBuilder builder)
-        {
+        protected override void BuildRenderTree(RenderTreeBuilder builder) {
             base.BuildRenderTree(builder);
             builder.AddContent(0, _markupString);
         }
 
         /// <inheritdoc/>
-        protected override void OnParametersSet()
-        {
+        protected override void OnParametersSet() {
             base.OnParametersSet();
             var markdown = File.ReadAllText(FilePath);
-            _markupString = new MarkupString(Markdig.Markdown.ToHtml(markdown, Pipeline));
+            _markupString = new MarkupString(Markdown.ToHtml(markdown, Pipeline));
         }
     }
 }

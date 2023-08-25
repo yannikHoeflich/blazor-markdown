@@ -1,5 +1,8 @@
 <Project>
   <ItemGroup>
-    <PackageReference Include="GitVersionTask" Version="5.3.7" PrivateAssets="All" />
+	  <PackageReference Include="GitVersion.MsBuild" Version="5.12.0">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
   </ItemGroup>
 </Project>

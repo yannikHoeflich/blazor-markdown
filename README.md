@@ -1,8 +1,8 @@
-<p style="text-align: center;">
-
 # Blazor Markdown
+[![.NET](https://github.com/yannikHoeflich/blazor-markdown/actions/workflows/dotnet.yml/badge.svg)](https://github.com/yannikHoeflich/blazor-markdown/actions/workflows/dotnet.yml) ![Nuget](https://img.shields.io/nuget/v/BlazorMarkdown?style=flat-square) ![Nuget](https://img.shields.io/nuget/dt/BlazorMarkdown?style=flat-square)
 
-![.NET Core](https://github.com/georgemathieson/blazor-markdown/workflows/.NET%20Core/badge.svg) ![Nuget](https://img.shields.io/nuget/v/BlazorMarkdown?style=flat-square) ![Nuget](https://img.shields.io/nuget/dt/BlazorMarkdown?style=flat-square)
+
+**This is a fork from [lanicon](https://github.com/lanicon/blazor-markdown). As it seems, he stopped maintaining this project, so I continue.**
 
 A [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor) Markdown component that enables you to include Markdown files in your server-side Blazor apps.
 
@@ -16,7 +16,7 @@ No longer will  `<pre><code>` content be weirdly indented or heavily escaped. Go
 
 ## Get started
 
-Install the [NuGet package](https://www.nuget.org/packages/BlazorMarkdown/) into your server side Blazor project.
+Install the [NuGet package](https://www.nuget.org/packages/BlazorMarkdownEnhanced/) into your server side Blazor project.
 
 ```powershell
 PM> Install-Package BlazorMarkdown
