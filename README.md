@@ -1,5 +1,5 @@
 # Blazor Markdown
-[![.NET](https://github.com/yannikHoeflich/blazor-markdown/actions/workflows/dotnet.yml/badge.svg)](https://github.com/yannikHoeflich/blazor-markdown/actions/workflows/dotnet.yml) ![Nuget](https://img.shields.io/nuget/v/BlazorMarkdownEnhanced?style=flat-square) ![Nuget](https://img.shields.io/nuget/dt/BlazorMarkdownEnhanced?style=flat-square)
+[![.NET](https://github.com/yannikHoeflich/blazor-markdown/actions/workflows/dotnet.yml/badge.svg)](https://github.com/yannikHoeflich/blazor-markdown/actions/workflows/dotnet.yml) ![Nuget](https://img.shields.io/nuget/v/BlazorMarkdownEnhanced) ![Nuget](https://img.shields.io/nuget/dt/BlazorMarkdownEnhanced)
 
 
 **This is a fork from [lanicon](https://github.com/lanicon/blazor-markdown). As it seems, he stopped maintaining this project, so I continue.**
